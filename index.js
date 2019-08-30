@@ -20,6 +20,6 @@ function iLoveTheBeatles(aNum) {
     repeatedArr.push("I love the Beatles!");
     aNum++;
   }
-  
+  while (aNum < 15)
   return repeatedArr;
 }
