@@ -14,3 +14,11 @@ function johnLennonFacts(factsArr) {
   }
   return factsArr;
 }
+
+function iLoveTheBeatles(aNum) {
+  let repeatedArr = [];
+  for (let i = 1; i <= aNum; i++) {
+    repeatedArr.push("I love the Beatles!");
+  }
+  return repeatedArr;
+}
