@@ -16,10 +16,12 @@ function johnLennonFacts(factsArr) {
 }
 
 function iLoveTheBeatles(aNum) {
+  
   do {
     repeatedArr.push("I love the Beatles!");
     aNum++;
   }
-  while (aNum < 15)
+  while (aNum < 15);
+  
   return repeatedArr;
 }
