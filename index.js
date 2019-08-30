@@ -17,7 +17,7 @@ function johnLennonFacts(factsArr) {
 
 function iLoveTheBeatles(aNum) {
   let repeatedArr = [];
-  for (let i = 0; i <= aNum; i++) {
+  while (aNum <for (let i = 0; i <= aNum; i++) {
     repeatedArr.push("I love the Beatles!");
   }
   return repeatedArr;
